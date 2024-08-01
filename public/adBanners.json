@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "title": "Boost Your Leads",
+      "description": "Harness AI for Effective Campaigns",
+      "cta": "Learn More",
+      "image": "/images/banner1.jpg",
+      "background": "#FFA500"
+    },
+    {
+      "id": 2,
+      "title": "Maximize Conversions",
+      "description": "Data-Driven Strategies for Growth",
+      "cta": "Discover Now",
+      "image": "/images/banner2.jpg",
+      "background": "#4CAF50"
+    },
+    {
+      "id": 3,
+      "title": "Optimize Performance",
+      "description": "AI-Powered Marketing Solutions",
+      "cta": "Get Started",
+      "image": "/images/banner3.jpg",
+      "background": "#2196F3"
+    },
+    {
+      "id": 4,
+      "title": "Increase Engagement",
+      "description": "Personalized Content Strategies",
+      "cta": "Explore More",
+      "image": "/images/banner4.jpg",
+      "background": "#FF5733"
+    },
+    {
+      "id": 5,
+      "title": "Expand Reach",
+      "description": "Comprehensive SEO Services",
+      "cta": "See How",
+      "image": "/images/banner5.jpg",
+      "background": "#C70039"
+    },
+    {
+      "id": 6,
+      "title": "Grow Your Brand",
+      "description": "Innovative Branding Solutions",
+      "cta": "Start Now",
+      "image": "/images/banner6.jpg",
+      "background": "#900C3F"
+    }
+  ]

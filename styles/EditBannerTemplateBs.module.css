@@ -1,0 +1,118 @@
+.fullScreenOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.editContainer {
+  background-color: rgb(59, 55, 55);
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.editContainer h2 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.editContainer form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+
+.currentImagePreview {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.imageRemoveButton {
+  position: relative;
+  top: 5px; /* Adjust as needed */
+  right: 5px; /* Adjust as needed */
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+  color: white;
+  font-size: 16px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  line-height: 1;
+}
+
+.imageRemoveButton:hover {
+  background: rgba(255, 0, 0, 0.8);
+}
+
+.imageUpload {
+  display: flex;
+  justify-content: center;
+}
+
+.uploadButton {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.editContainer input[type="text"],
+.editContainer textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+
+.doneButton,
+.downloadButton,
+.closeButton {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  color: white;
+}
+
+.doneButton {
+  background-color: #007bff;
+}
+
+.downloadButton {
+  background-color: #28a745;
+}
+
+.closeButton {
+  background-color: #6c757d;
+  margin-top: 15px;
+  width: 100%;
+}
